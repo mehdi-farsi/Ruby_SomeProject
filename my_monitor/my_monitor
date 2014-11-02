@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+# @Author: mehdi
+# @Date:   2014-11-02 18:48:19
+# @Last Modified by:   mehdi
+# @Last Modified time: 2014-11-02 18:53:22
+
+require './monitor'
+
+my_monitor = MyMonitor::Monitor.new
+
+my_monitor.display_header
+my_monitor.monitor
